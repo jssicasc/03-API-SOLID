@@ -12,7 +12,7 @@ GymPass style app
 - Deve ser possível o usuário obter o seu histórico de check-ins;
 - Deve ser possível o usuário buscar academias próximas;
 - Deve ser possível o usuário buscar academias pelo nome;
-- Deve ser possível o usuário realizar check-in em uma academia; (funcionalidade CORE = núcleo)
+- Deve ser possível o usuário realizar check-in em uma academia; (funcionalidade CORE)
 - Deve ser possível validar o check-in de um usuário;
 - Deve ser possível cadastrar uma academia.
 
