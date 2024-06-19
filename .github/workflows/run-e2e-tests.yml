@@ -8,14 +8,14 @@ jobs:
         runs-on: ubuntu-latest
         
         services:
-            postgres:
-              image: bitnami/postgresql
-              ports:
-                - 5432:5432          
-              environment:
-                - POSTGRES_USERNAME=docker
-                - POSTGRES_PASSWORD=docker
-                - POSTGRES_DATABASE=apisolid
+          postgres:
+            image: bitnami/postgresql
+            ports:
+              - 5432:5432
+            env:
+              POSTGRES_DATABASE: apisolid
+              POSTGRES_USERNAME: docker
+              POSTGRES_PASSWORD: docker
 
         steps:
           - uses: actions/checkout@v3
